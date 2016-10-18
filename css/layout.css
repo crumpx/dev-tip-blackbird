@@ -218,6 +218,29 @@ footer {
 
 @media (min-width:320px) and (max-width:414px) {
 
+  .fore-bird {
+    width: 960px;
+    height: 733px;
+    position: absolute;
+    left: 0;
+    /*margin-left: -480px;*/
+    top: 380px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url(../images/fore-bird.png);
+  }
+
+  .clothes-pics figcaption {
+    position: absolute;
+    bottom:10px;
+    left: -100%;
+    background: black;
+    color: white;
+    padding: 2px 8px;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+
   .blog-posts {
     margin-top: 20px;
   }
