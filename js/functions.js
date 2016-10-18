@@ -35,7 +35,7 @@ $(window).scroll(function(){
     });
   }
 
-  if(wScroll > $('.blog-posts').offset().top - $(window).height()) {
+  if(wScroll > $('.blog-posts').offset().top - $(window).height() && $(window).width()>414) {
 
     var offset = Math.min(0, wScroll - $('.blog-posts').offset().top + $(window).height() - 690);
     $('.post-1').css({'transform': 'translate('+offset+'px, '+Math.abs(offset * 0.2)+'px)'});
